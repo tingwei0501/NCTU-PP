@@ -1,0 +1,2 @@
+run this code:
+mpiexec -np 4 --host host,slave1,slave2,slave3 ./prime
