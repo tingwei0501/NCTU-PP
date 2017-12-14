@@ -1,0 +1,5 @@
+run this code
+tar -xvf /path/to/the/tar/you/downloaded
+cd CG
+make clean && make DATASIZE=LARGE
+./bin/cg
