@@ -3,3 +3,6 @@ tar -xvf /path/to/the/tar/you/downloaded
 cd CG
 make clean && make DATASIZE=LARGE
 ./bin/cg
+
+For four core
+$ taskset -c 0,1,2,3 ./bin/cg
