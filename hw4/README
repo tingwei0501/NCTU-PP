@@ -1,0 +1,4 @@
+run this code:
+nvcc wave.cu
+time ./a.out #points #steps
+(./a.out 1000000 1000)
